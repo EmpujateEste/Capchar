@@ -11,9 +11,8 @@ body{
 nav{
 	background-color:#161616;
 	width:100vw;
-	height:8vh;
-	position:relative;
-	display:block;
+	height:5vh;
+	position:absolute;
 	top:0;
 	left:0;
 }
