@@ -13,7 +13,7 @@ nav{
 	width:100vw;
 	height:8vh;
 	position:relative;
-	justify-contents:center;
+	display:block;
 	top:0;
 	left:0;
 }
