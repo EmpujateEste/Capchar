@@ -10,8 +10,8 @@ body{
 }
 nav{
 	background-color:#161616;
-	min-width:100vw;
-	max-height:8vh;
+	width:100vw;
+	height:8vh;
 	position:relative;
 	display:flex;
 	flex-direction:column;
