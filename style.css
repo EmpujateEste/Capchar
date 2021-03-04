@@ -2,20 +2,60 @@
 	padding:0;
 	margin:0;
 	box-sizing:border-box;
+	user-select: none;
+	-webkit-user-select:none;
 }
 body{
 	background-color:#272727;
 	width:100vw;
 	height:100vh;
+	font-family:Helvetica;
 }
 nav{
 	background-color:#161616;
 	width:100vw;
 	height:8vh;
 	position:relative;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
 	top:0;
 	left:0;
 }
-h1{
-	color:red;
+.menu{
+	width:50%;
+	height:100%;
+}
+.logo{
+	width:50%;
+	height:100%;
+	position:relative;
+	display:flex;
+	flex-direction:row;
+	justify-content:start;
+	align-items:center;
+}
+.logo img{
+	padding:5px 5px 0px 30px;
+}
+.menu ul{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	color:#fff;
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+	list-style-type:none;
+}
+.menu a{
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+}
+nav img{
+	width:auto;
+	height:80%;
 }
